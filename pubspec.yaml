@@ -1,0 +1,28 @@
+# Este archivo pubspec.yaml configura las dependencias y el entorno para un proyecto de Flutter llamado "chat".
+
+name: chat  # Nombre del proyecto
+
+description: A new Flutter project.  # Breve descripción del proyecto
+
+publish_to: "none"  # Define que el paquete no se publicará en el repositorio de Dart (pub.dev)
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"  # Especifica la versión de Dart SDK necesaria para ejecutar el proyecto (entre 3.5.0 y 4.0.0)
+
+dependencies:  # Dependencias necesarias para el proyecto
+  flutter:
+    sdk: flutter  # Utiliza el SDK de Flutter
+  cupertino_icons: ^1.0.8  # Paquete para utilizar íconos estilo Cupertino (iOS)
+  google_fonts: ^6.2.1  # Paquete para integrar fuentes personalizadas de Google Fonts
+  flutter_svg: ^2.0.10  # Paquete para manejar imágenes SVG en Flutter
+
+dev_dependencies:  # Dependencias de desarrollo, utilizadas para pruebas y linting
+  flutter_test:
+    sdk: flutter  # Paquete para escribir y ejecutar pruebas de Flutter
+  flutter_lints: ^4.0.0  # Paquete de linting para aplicar buenas prácticas en el código Flutter
+
+flutter:
+  uses-material-design: true  # Indica que se utilizarán componentes de diseño Material Design en la aplicación
+  assets:
+    - assets/images/  # Ruta de la carpeta donde se almacenan las imágenes de la aplicación
+    - assets/icons/  # Ruta de la carpeta donde se almacenan los íconos personalizados de la aplicación
