@@ -1,6 +1,6 @@
 # Este archivo pubspec.yaml configura las dependencias y el entorno para un proyecto de Flutter llamado "chat".
 
-name: chat  # Nombre del proyecto
+name: NoxusChat  # Nombre del proyecto
 
 description: A new Flutter project.  # Breve descripción del proyecto
 
