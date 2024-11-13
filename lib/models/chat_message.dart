@@ -23,7 +23,7 @@ class ChatMessage {
 // Lista de mensajes de ejemplo para la demostración
 List demeChatMessages = [
   ChatMessage(
-    text: "Hi Lee,", // Mensaje de texto
+    text: "Hi Lee, how you doing?", // Mensaje de texto
     messageType: ChatMessageType.text, // Tipo de mensaje: texto
     messageStatus: MessageStatus.viewed, // Estado del mensaje: visto
     isSender: false, // No fue enviado por el usuario actual
